@@ -1,0 +1,158 @@
+header{
+    background-color:#333;
+    padding:2rem;
+    color:#fff;
+    border-bottom-right-radius: 30px;
+    text-align:center;
+    cursor:text;
+
+}
+header:hover{
+    color: aqua;
+    box-shadow:0 0 15px;
+    transition:1s;
+}
+h2{
+    color:rgb(28, 197, 70)
+}
+nav {
+   
+    display: flex;
+    justify-content:space-evenly;
+    margin: 0 15px;
+    color: #fff;
+    
+   
+}
+nav a{
+    text-decoration: none;
+    color:#fff
+    
+}
+nav > a:hover{
+    color:rgb(22, 22, 24);
+    border: 10px;
+    background-color: rgb(30, 213, 219);
+    padding:1%;
+    border-radius: 10px;
+    box-shadow:0 0 10px;
+    transition: 1s;
+    
+    
+}
+nav a:active{
+    opacity:0.5;
+    
+}
+img{
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px;
+}
+section{
+    padding: 30px;
+       
+}
+.skills{
+    background-color: #eee4e4;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.project{
+    background-color: #eee4e4;
+}
+button{
+    align-items: center;
+    background-color: aqua;
+    border-radius: 10px;
+    border:0px;
+    padding:5px;
+    margin-top:10px;
+    margin-left:60px;
+    
+}
+section > p{
+
+    color:white;
+}
+label{
+    color:white;
+    
+   
+
+}
+input,textarea{
+    border:none;
+    border-radius:10px;
+    box-shadow:0 0 15px;
+    display:flex;
+    margin-top: 5px;
+    margin-bottom: -15px;
+    padding:5px
+    
+    
+    
+
+}
+input:hover{
+    transition:0.5s;
+    box-shadow:0px 0px 10px rgba(237, 241, 241, 0.75);
+}
+ header> h1{
+    color:#dd1b1b;
+    text-shadow: 0 0 15px;
+}
+
+button{
+    border: none;
+    font-size: 12px;
+    font-weight:bold;
+    font-family:'Times New Roman', Times, serif;
+    width:50px;
+    
+
+    
+    
+}
+button:hover{
+    opacity:0.5;
+    box-shadow:0 0 10px;
+    transition:1s;
+    border:12px;
+}
+strong{
+    color:aqua;
+}
+footer{
+    padding:20px;
+    color:white;
+    background-color:#333;
+    text-align:center;
+    border-top-left-radius: 25px;
+    
+}
+footer a:hover{
+    text-decoration:underline;
+    
+    
+}
+footer > p:hover{
+    color:red;
+    transition: all 1s ease-in-out;
+}
+li a:hover{
+    color:rgb(102, 102, 248);
+    transition: 1s;
+}
+body{
+    background-image: url(img\ copy.jpg);
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    color:rgb(3, 212, 3);
+  }
+dd{
+    color:white;
+}
+

@@ -1,0 +1,17 @@
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    width: 100px; /* Adjust the width as needed */
+    text-align: right;
+    margin-right: 10px;
+    align-content: center;
+  }
+  
+  input {
+    flex: 1;
+  }
+  
